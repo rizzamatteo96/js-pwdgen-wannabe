@@ -18,6 +18,7 @@ colorePreferito = prompt('Inserisci il tuo colore preferito');
 
 // scrittura e visualizzazione della concatenazione
 risultatoConcat = nome + cognome + colorePreferito + '21';
+risultatoConcat = risultatoConcat.toLowerCase();
 // console.log(risultatoConcat);
 
 // visualizzazione risultato in html
